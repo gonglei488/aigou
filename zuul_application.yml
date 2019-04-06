@@ -22,7 +22,7 @@ zuul:
     plat.serviceId: provider-service
     plat.path: /plat/**
     product.serviceId: product-service
-    plat.path: /produc/**
+    product.path: /produc/**
 ---
 server:
   port: 9528
@@ -44,4 +44,4 @@ zuul:
     plat.serviceId: provider-service
     plat.path: /plat/**
     product.serviceId: product-service
-    plat.path: /produc/**
+    product.path: /produc/**
